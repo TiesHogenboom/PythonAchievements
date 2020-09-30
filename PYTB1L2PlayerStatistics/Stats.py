@@ -1,5 +1,5 @@
 naam = "Ties"
-s = 18
+s = 18.8
 sp = 12
 ag = 16
 sl = 2
@@ -7,7 +7,7 @@ c = 12
 l = 1
 w = "kicks"
 t = "bike"
-m = "lazy"
+m = True
 
 nm1 = "name: " + naam
 print(nm1)
@@ -27,7 +27,8 @@ nm8 = "weapon: " + w
 print(nm8)
 nm9 = "transportation: " + t
 print(nm9)
-nm10 = "mood: " + m
-print(nm10)
+if ( m ) :
+    print("mood = lazy")
+
 
 
